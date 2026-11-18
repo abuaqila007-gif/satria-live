@@ -19,8 +19,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Extract project
-        run: unzip -q SATRIA-LIVE-PROJECT-LOGO.zip
+      - name: Extract fixed project
+  run: unzip -q SATRIA-LIVE-PROJECT-LOGO-FIX.zip
 
       - name: Fix JVM targets
         run: |
