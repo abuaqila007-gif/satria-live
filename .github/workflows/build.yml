@@ -20,7 +20,7 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Extract fixed project
-  run: unzip -q SATRIA-LIVE-PROJECT-LOGO-FIX.zip
+        run: unzip -q SATRIA-LIVE-PROJECT-LOGO-FIX.zip
 
       - name: Fix JVM targets
         run: |
